@@ -12,6 +12,9 @@ app.get('/home', (request, response, next) => response.sendFile(__dirname + '/vi
  
 // cat route:
 app.get('/about', (request, response, next) => response.sendFile(__dirname + '/views/about.html'));
+
+// gallery
+app.get('/gallery', (request, response, next) => response.sendFile(__dirname + '/views/gallery.html'));
  
 // Server Started
 app.get('/works', (request, response, next) => response.sendFile(__dirname + '/views/works.html'));
